@@ -57,4 +57,6 @@ Button(root, text="Сократить ссылку", command=short, fg='white', 
 Button(root, text="Выйти", command=q, fg='white', bg='black').pack(pady=2)
 # Button(root, text="Подробнее", command=a, fg='white', bg='black').pack(pady=2)
 Button(root, text="Сократить и открыть готовую ссылку", command=shorto, fg='white', bg='black').pack(pady=2)
-root.mainloop()
+if __name__ == '__main__':
+	root.mainloop()
+
